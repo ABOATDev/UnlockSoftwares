@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Adresse_Mac" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Adresse Mac.vbs;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="InfoBattery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InfoBattery.bat;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="LISTE_DE_COMMANDES" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LISTE DE COMMANDES.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Process_Manager_Checker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Process Manager Checker.bat;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="ProductKey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ProductKey.vbs;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Wifi_Passwords_Recovery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Wifi Passwords Recovery.bat;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Crack_Liste_de_clés_d_activation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\[Crack]Liste de clés d'activation.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KasperskyX32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KasperskyX32.bat;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="KasperskyX64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KasperskyX64.bat;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="_2099_09_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2099.09.22.key;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="WindowsRaccourci" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WindowsRaccourci.rar;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Windows_10___Active_Numlock_au_démarrage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows 10 - Active Numlock au démarrage.reg;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-16</value>
+  </data>
+  <data name="Windows_10___Désactive_Numlock_au_démarrage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Windows 10 - Désactive Numlock au démarrage.reg;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-16</value>
+  </data>
+  <data name="WIN10AntiTelemetry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WIN10AntiTelemetry.bat;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Win10DisableLockscreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Win10DisableLockscreen.bat;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="WindowsInfoLicense" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WindowsInfoLicense.vbs;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="SVCHOST_CHECKER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SVCHOST_CHECKER.bat;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Disable_Lock_Screen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Disable_Lock_Screen.reg;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-16</value>
+  </data>
+  <data name="Enable_Lock_Screen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Enable_Lock_Screen.reg;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-16</value>
+  </data>
+  <data name="Remove_Share_with_from_context_menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Remove_Share_with_from_context_menu.reg;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-16</value>
+  </data>
+  <data name="Turn_Off_AutoPlay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Turn_Off_AutoPlay.reg;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Turn_Off_Fast_Startup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Turn_Off_Fast_Startup.bat;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Turn_On_Fast_Startup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Turn_On_Fast_Startup.bat;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Add_Copy_Move_To_Folder_to_context_menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Add_Copy-Move_To_Folder_to_context_menu.reg;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Remove_Add_to_Windows_Media_Player_list_context_menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Remove_Add_to_Windows_Media_Player_list_context_menu.reg;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-16</value>
+  </data>
+  <data name="Remove_Quick_access_from_navigation_pane" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Remove_Quick_access_from_navigation_pane.reg;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-16</value>
+  </data>
+  <data name="Snagit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Snagit.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="RestartEnAdmin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RestartEnAdmin.bat;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="activate_office_2016" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\activate-office-2016.bat;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="activate_visio2016" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\activate-visio2016.bat;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="activate_windows_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\activate-windows-10.bat;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="activate_windows_8_8_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\activate-windows-8-8-1.bat;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="_207787" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\207787.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2020_12_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020.12.10.key;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="activate_office_2019" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\activate-office-2019.bat;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="GiveAwayOfTheDay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GiveAwayOfTheDay.vbs;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="_2020_07_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020.07.28.avastlic;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_2023_11_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023.11.21.avastlic;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_2026_07_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026.07.05.avastlic;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_2026_11_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2026.11.05.avastlic;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_2027_02_28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2027.02.28.avastlic;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_2029_04_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2029.04.14.avastlic;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_2038_01_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2038.01.10.avastlic;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="revouninstallerpro4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\revouninstallerpro4.lic;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

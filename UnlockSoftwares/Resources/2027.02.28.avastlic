@@ -1,0 +1,757 @@
+[Certificates]
+WalletKeys=BJ8Z9N-5MHL7J-4B44LE
+CustomerName=Yen Fatt Yap
+CustomerCompany=
+CertificateCount=17
+
+[Certificate0]
+LicenseId=839aac29-5f61-4a69-9fec-c55d3b861709
+CorrelationIds=4f9b88d0-2520-4dad-a8b9-0796aa392cc5;52c1f07d-35ae-470b-83e5-382c0e4d620b;296a049f-109a-46ee-9504-9c10a30fcc8b;69945de7-1e1b-4894-a85e-354cc919f352;7385f634-18ad-4d51-b208-11e1171e0e5c;FR_e78d2e401429dcc3e8a67339064b5dd3
+ProductName=Avast Cleanup - 1 user, 1 year
+LicensingSchemaId=avast-cleanup-1y-1s_1
+Feature=GF_SRV
+LicenseFamily=GrimeFighter
+LicenseCount=1
+LicenseCountCurrent=0
+LicenseType=0
+# Paid
+LicenseTypeAlpha=3
+# 2016-08-18T11:17:00.177Z
+Issued=1471519020
+# 2021-08-18T11:17:01.141Z
+UpdateValidThru=1629285421
+BillingSubscriptionId=22515398
+BillingSubscriptionMode=3
+BillingSubscriptionLength=N/A
+
+[Certificate0.Resource0]
+ResourceName=devices
+CurrentValue=0.0
+OriginalValue=1.0
+
+[Certificate0.Feature0]
+Feature=gf_srv
+Platform=null
+# 2021-08-18T11:17:01.141Z
+UpdateValidThru=1629285421
+
+
+[Certificate1]
+LicenseId=d0f6de51-c17c-4433-8a27-2a75028a7b7c
+CorrelationIds=7e649a91-4d76-4182-89d7-a27e4092fc17;UPS_600EC5F5E1C53A544227318E16B1DE3B;SR_CXR-40986097600
+ProductName=Avast Premier - 3 users, 1 year
+LicensingSchemaId=avast-premier-1y-3s_1
+Feature=AV_APR
+LicenseFamily=AvConsumer
+LicenseCount=3
+LicenseCountCurrent=0
+LicenseType=10
+# Paid
+LicenseTypeAlpha=3
+# 2016-08-12T16:01:14.381Z
+Issued=1471017674
+# 2018-08-12T18:01:30.027Z
+UpdateValidThru=1534096890
+BillingSubscriptionId=17691827
+BillingSubscriptionMode=2
+BillingSubscriptionLength=N/A
+
+[Certificate1.Resource0]
+ResourceName=devices
+CurrentValue=0.0
+OriginalValue=3.0
+
+[Certificate1.Feature0]
+Feature=alc_cmp_secdns
+Platform=null
+# 2018-08-12T18:01:30.027Z
+UpdateValidThru=1534096890
+
+[Certificate1.Feature1]
+Feature=alc_cmp_snx
+Platform=null
+# 2018-08-12T18:01:30.027Z
+UpdateValidThru=1534096890
+
+[Certificate1.Feature2]
+Feature=alc_cmp_sfzone
+Platform=null
+# 2018-08-12T18:01:30.027Z
+UpdateValidThru=1534096890
+
+[Certificate1.Feature3]
+Feature=alc_cmp_fw
+Platform=null
+# 2018-08-12T18:01:30.027Z
+UpdateValidThru=1534096890
+
+[Certificate1.Feature4]
+Feature=alc_shl_spm
+Platform=null
+# 2018-08-12T18:01:30.027Z
+UpdateValidThru=1534096890
+
+[Certificate1.Feature5]
+Feature=alc_cpm_shredder
+Platform=null
+# 2018-08-12T18:01:30.027Z
+UpdateValidThru=1534096890
+
+
+[Certificate2]
+LicenseId=d1dd0f92-3018-452d-983b-edf29a3718fe
+CorrelationIds=4c76f12b-912e-454a-810c-938c81d90a72
+ProductName=Avast Cleanup - 1 user, 1 year
+LicensingSchemaId=avast-cleanup-1y-1s_1
+Feature=GF_SRV
+LicenseFamily=GrimeFighter
+LicenseCount=1
+LicenseCountCurrent=0
+LicenseType=0
+# Paid
+LicenseTypeAlpha=3
+# 2016-08-17T15:05:11.704Z
+Issued=1471446311
+# 2017-08-17T15:05:11.704Z
+UpdateValidThru=1502982311
+BillingSubscriptionId=15714047
+BillingSubscriptionMode=3
+BillingSubscriptionLength=N/A
+
+[Certificate2.Resource0]
+ResourceName=devices
+CurrentValue=0.0
+OriginalValue=1.0
+
+[Certificate2.Feature0]
+Feature=gf_srv
+Platform=null
+# 2017-08-17T15:05:11.704Z
+UpdateValidThru=1502982311
+
+
+[Certificate3]
+LicenseId=96484652-b9ce-4c51-a802-19d4d2537673
+CorrelationIds=79ac8f32-b0e7-4dac-8ae9-14371934fa5f
+ProductName=Avast Cleanup - 1 user, 1 year
+LicensingSchemaId=avast-cleanup-1y-1s_1
+Feature=GF_SRV
+LicenseFamily=GrimeFighter
+LicenseCount=1
+LicenseCountCurrent=0
+LicenseType=0
+# Paid
+LicenseTypeAlpha=3
+# 2016-08-13T08:37:25.133Z
+Issued=1471077445
+# 2017-08-13T08:37:25.133Z
+UpdateValidThru=1502613445
+BillingSubscriptionId=0
+BillingSubscriptionMode=1
+BillingSubscriptionLength=N/A
+
+[Certificate3.Resource0]
+ResourceName=devices
+CurrentValue=0.0
+OriginalValue=1.0
+
+[Certificate3.Feature0]
+Feature=gf_srv
+Platform=null
+# 2017-08-13T08:37:25.133Z
+UpdateValidThru=1502613445
+
+
+[Certificate4]
+LicenseId=a4eb6c06-b978-462e-a905-c25e046e15c5
+CorrelationIds=PUR_2353DAC978FC2A1477282B329D3FD688
+ProductName=Avast Passwords - 1 user, 3 years
+LicensingSchemaId=avast-passwords-3y-1s_1
+Feature=AV_PSW
+LicenseFamily=PasswordManager
+LicenseCount=1
+LicenseCountCurrent=0
+LicenseType=0
+# Paid
+LicenseTypeAlpha=3
+# 2017-08-18T13:06:56.001Z
+Issued=1503061616
+# 2020-08-18T12:23:33.970Z
+UpdateValidThru=1597753413
+BillingSubscriptionId=22160744
+BillingSubscriptionMode=3
+BillingSubscriptionLength=N/A
+
+[Certificate4.Resource0]
+ResourceName=devices
+CurrentValue=0.0
+OriginalValue=1.0
+
+[Certificate4.Feature0]
+Feature=av_psw
+Platform=null
+# 2020-08-18T12:23:33.970Z
+UpdateValidThru=1597753413
+
+
+[Certificate5]
+LicenseId=0bd83ff3-89d5-4fa6-9ffc-473d0948de56
+CorrelationIds=PUR_280F5DAC8DD95340278299FC9D5D6CCF;0dd8a140-6454-4a77-951f-7f5f51d6425f;ad3ee8c3-465c-432f-943f-321eb0ea5a62;UPN_BC638B4963969CCA4AE9252B8A835C90;15746e5c-7c68-4f38-9f7a-6ff92fd6e39b;20ae5bcd-9480-4c1e-8dde-515f8444623a;06fe46cf-e769-4f5c-8d79-06f666ce63e7;f6b859ea-5849-4e54-9180-f23d294a7360;a115523b-8d01-4eea-a116-b0a843b28c11;5f48fd2d-fa0a-4696-bef8-236049d5adf8;583465f4-a6b7-405d-819f-2bf8ae770a15;d881252d-feb9-4fd2-8247-feae8161ef55;d8b9f7ff-1deb-41f7-9e90-cca5cb4ded11
+ProductName=Avast Premier - 3 users, 1 year
+LicensingSchemaId=avast-premier-1y-3s_1
+Feature=AV_APR
+LicenseFamily=AvConsumer
+LicenseCount=3
+LicenseCountCurrent=0
+LicenseType=10
+# Paid
+LicenseTypeAlpha=3
+# 2016-05-11T12:48:57.046Z
+Issued=1462970937
+# 2027-02-28T13:30:34.561Z
+UpdateValidThru=1803821434
+BillingSubscriptionId=23466980
+BillingSubscriptionMode=2
+BillingSubscriptionLength=N/A
+
+[Certificate5.Resource0]
+ResourceName=devices
+CurrentValue=0.0
+OriginalValue=3.0
+
+[Certificate5.Feature0]
+Feature=alc_cmp_secdns
+Platform=null
+# 2027-02-28T13:30:34.561Z
+UpdateValidThru=1803821434
+
+[Certificate5.Feature1]
+Feature=alc_cmp_snx
+Platform=null
+# 2027-02-28T13:30:34.561Z
+UpdateValidThru=1803821434
+
+[Certificate5.Feature2]
+Feature=alc_cmp_sfzone
+Platform=null
+# 2027-02-28T13:30:34.561Z
+UpdateValidThru=1803821434
+
+[Certificate5.Feature3]
+Feature=alc_cmp_fw
+Platform=null
+# 2027-02-28T13:30:34.561Z
+UpdateValidThru=1803821434
+
+[Certificate5.Feature4]
+Feature=alc_shl_spm
+Platform=null
+# 2027-02-28T13:30:34.561Z
+UpdateValidThru=1803821434
+
+[Certificate5.Feature5]
+Feature=alc_cpm_shredder
+Platform=null
+# 2027-02-28T13:30:34.561Z
+UpdateValidThru=1803821434
+
+[Certificate5.Feature6]
+Feature=av_ais
+Platform=null
+# 2021-12-29T13:30:32.921Z
+UpdateValidThru=1640784632
+
+[Certificate5.Feature7]
+Feature=av_pro
+Platform=null
+# 2023-02-28T13:30:33.413Z
+UpdateValidThru=1677591033
+
+
+[Certificate6]
+LicenseId=87607bef-ff9d-4182-9da0-537ebdffa7c5
+CorrelationIds=avast-pro-antivirus-trial-1m-1s1506176754316
+ProductName=Avast Pro Antivirus Trial - 1 user, 1 month
+LicensingSchemaId=avast-pro-antivirus-trial-1m-1s_1
+Feature=AV_PRO
+LicenseFamily=AvConsumer
+LicenseCount=1
+LicenseCountCurrent=0
+LicenseType=4
+# Trial
+LicenseTypeAlpha=2
+# 2017-09-23T14:25:54.525Z
+Issued=1506176754
+# 2017-10-23T14:25:54.316Z
+UpdateValidThru=1508768754
+
+[Certificate6.Resource0]
+ResourceName=devices
+CurrentValue=0.0
+OriginalValue=1.0
+
+[Certificate6.Feature0]
+Feature=alc_cmp_secdns
+Platform=null
+# 2017-10-23T14:25:54.316Z
+UpdateValidThru=1508768754
+
+[Certificate6.Feature1]
+Feature=alc_cmp_snx
+Platform=null
+# 2017-10-23T14:25:54.316Z
+UpdateValidThru=1508768754
+
+[Certificate6.Feature2]
+Feature=alc_cmp_sfzone
+Platform=null
+# 2017-10-23T14:25:54.316Z
+UpdateValidThru=1508768754
+
+
+[Certificate7]
+LicenseId=c8a649b9-27aa-4745-8707-9356987a4302
+CorrelationIds=9c3a6882-3c27-4fc7-866b-fbbc12c09e1d;69945de7-1e1b-4894-a85e-354cc919f352;FR_68ba50f695ddbbbcc5f7b2f42781f1a2
+ProductName=Avast SecureLine for PC - 1 user, 1 year
+LicensingSchemaId=avast-secureline-for-pc-1y-1s_1
+Feature=AV_VPN
+LicenseFamily=SecureLine
+LicenseCount=1
+LicenseCountCurrent=0
+LicenseType=0
+# Paid
+LicenseTypeAlpha=3
+# 2016-08-21T20:25:32.418Z
+Issued=1471811132
+# 2019-08-21T20:25:32.610Z
+UpdateValidThru=1566419132
+BillingSubscriptionId=22515082
+BillingSubscriptionMode=3
+BillingSubscriptionLength=N/A
+
+[Certificate7.Resource0]
+ResourceName=devices
+CurrentValue=0.0
+OriginalValue=1.0
+
+[Certificate7.Feature0]
+Feature=secureline
+Platform=windows
+# 2019-08-21T20:25:32.610Z
+UpdateValidThru=1566419132
+
+[Certificate7.Feature0.Resource0]
+ResourceName=secureline/secureline/windows/connections
+CurrentValue=0.0
+OriginalValue=1.0
+
+
+
+[Certificate8]
+LicenseId=8f601ea5-644b-49a4-a19f-a959c4d97f7a
+CorrelationIds=cc34d968-6cdd-4198-8826-fccad7ca87f3;UPN_149DCA552F583EE2491C87E0F10B7C4E
+ProductName=Avast Premier - 1 user, 1 year
+LicensingSchemaId=avast-premier-1y-1s_1
+Feature=AV_APR
+LicenseFamily=AvConsumer
+LicenseCount=1
+LicenseCountCurrent=0
+LicenseType=10
+# Paid
+LicenseTypeAlpha=3
+# 2016-08-18T01:46:47.772Z
+Issued=1471484807
+# 2018-08-18T01:46:48.407Z
+UpdateValidThru=1534556808
+BillingSubscriptionId=21838844
+BillingSubscriptionMode=2
+BillingSubscriptionLength=N/A
+
+[Certificate8.Resource0]
+ResourceName=devices
+CurrentValue=0.0
+OriginalValue=1.0
+
+[Certificate8.Feature0]
+Feature=alc_cmp_secdns
+Platform=null
+# 2018-08-18T01:46:48.407Z
+UpdateValidThru=1534556808
+
+[Certificate8.Feature1]
+Feature=alc_cmp_snx
+Platform=null
+# 2018-08-18T01:46:48.407Z
+UpdateValidThru=1534556808
+
+[Certificate8.Feature2]
+Feature=alc_cmp_sfzone
+Platform=null
+# 2018-08-18T01:46:48.407Z
+UpdateValidThru=1534556808
+
+[Certificate8.Feature3]
+Feature=alc_cmp_fw
+Platform=null
+# 2018-08-18T01:46:48.407Z
+UpdateValidThru=1534556808
+
+[Certificate8.Feature4]
+Feature=alc_shl_spm
+Platform=null
+# 2018-08-18T01:46:48.407Z
+UpdateValidThru=1534556808
+
+[Certificate8.Feature5]
+Feature=alc_cpm_shredder
+Platform=null
+# 2018-08-18T01:46:48.407Z
+UpdateValidThru=1534556808
+
+
+[Certificate9]
+LicenseId=1a49e6ce-3796-44ec-960d-25137a3136af
+CorrelationIds=bc06007f-6820-4097-b349-45970c462a31
+ProductName=Avast Cleanup - 1 user, 1 year
+LicensingSchemaId=avast-cleanup-1y-1s_1
+Feature=GF_SRV
+LicenseFamily=GrimeFighter
+LicenseCount=1
+LicenseCountCurrent=0
+LicenseType=0
+# Paid
+LicenseTypeAlpha=3
+# 2016-08-16T10:04:03.519Z
+Issued=1471341843
+# 2017-08-16T10:04:03.519Z
+UpdateValidThru=1502877843
+BillingSubscriptionId=0
+BillingSubscriptionMode=1
+BillingSubscriptionLength=N/A
+
+[Certificate9.Resource0]
+ResourceName=devices
+CurrentValue=0.0
+OriginalValue=1.0
+
+[Certificate9.Feature0]
+Feature=gf_srv
+Platform=null
+# 2017-08-16T10:04:03.519Z
+UpdateValidThru=1502877843
+
+
+[Certificate10]
+LicenseId=6542323d-fede-4aa3-bc14-3536e58dbfba
+CorrelationIds=avast-internet-sec-trial-1m-1s1489256634357
+ProductName=Avast Internet Security Trial - 1 user, 1 month
+LicensingSchemaId=avast-internet-sec-trial-1m-1s_1
+Feature=AV_AIS
+LicenseFamily=AvConsumer
+LicenseCount=1
+LicenseCountCurrent=0
+LicenseType=4
+# Trial
+LicenseTypeAlpha=2
+# 2017-03-11T18:23:54.352Z
+Issued=1489256634
+# 2017-04-10T18:23:54.357Z
+UpdateValidThru=1491848634
+
+[Certificate10.Resource0]
+ResourceName=devices
+CurrentValue=0.0
+OriginalValue=1.0
+
+[Certificate10.Feature0]
+Feature=alc_cmp_secdns
+Platform=null
+# 2017-04-10T18:23:54.357Z
+UpdateValidThru=1491848634
+
+[Certificate10.Feature1]
+Feature=alc_cmp_snx
+Platform=null
+# 2017-04-10T18:23:54.357Z
+UpdateValidThru=1491848634
+
+[Certificate10.Feature2]
+Feature=alc_cmp_sfzone
+Platform=null
+# 2017-04-10T18:23:54.357Z
+UpdateValidThru=1491848634
+
+[Certificate10.Feature3]
+Feature=alc_cmp_fw
+Platform=null
+# 2017-04-10T18:23:54.357Z
+UpdateValidThru=1491848634
+
+[Certificate10.Feature4]
+Feature=alc_shl_spm
+Platform=null
+# 2017-04-10T18:23:54.357Z
+UpdateValidThru=1491848634
+
+
+[Certificate11]
+LicenseId=2c218a69-45b5-4e00-a6a0-da22219b0484
+CorrelationIds=avast-internet-sec-trial-1m-1s1500345481729
+ProductName=Avast Internet Security Trial - 1 user, 1 month
+LicensingSchemaId=avast-internet-sec-trial-1m-1s_1
+Feature=AV_AIS
+LicenseFamily=AvConsumer
+LicenseCount=1
+LicenseCountCurrent=0
+LicenseType=4
+# Trial
+LicenseTypeAlpha=2
+# 2017-07-18T02:38:01.808Z
+Issued=1500345481
+# 2017-08-17T02:38:01.729Z
+UpdateValidThru=1502937481
+
+[Certificate11.Resource0]
+ResourceName=devices
+CurrentValue=0.0
+OriginalValue=1.0
+
+[Certificate11.Feature0]
+Feature=alc_cmp_secdns
+Platform=null
+# 2017-08-17T02:38:01.729Z
+UpdateValidThru=1502937481
+
+[Certificate11.Feature1]
+Feature=alc_cmp_snx
+Platform=null
+# 2017-08-17T02:38:01.729Z
+UpdateValidThru=1502937481
+
+[Certificate11.Feature2]
+Feature=alc_cmp_sfzone
+Platform=null
+# 2017-08-17T02:38:01.729Z
+UpdateValidThru=1502937481
+
+[Certificate11.Feature3]
+Feature=alc_cmp_fw
+Platform=null
+# 2017-08-17T02:38:01.729Z
+UpdateValidThru=1502937481
+
+[Certificate11.Feature4]
+Feature=alc_shl_spm
+Platform=null
+# 2017-08-17T02:38:01.729Z
+UpdateValidThru=1502937481
+
+
+[Certificate12]
+LicenseId=121fa945-3720-4e4d-a6d5-ea0dd458b09e
+CorrelationIds=avast-free-1s1y1491772208498;ald_1498823899261
+ProductName=Avast Free Antivirus - 1 seat, 1 year
+LicensingSchemaId=avast-free-1s1y_1s1y
+Feature=AV_FREE
+LicenseFamily=AvConsumer
+LicenseCount=1
+LicenseCountCurrent=0
+LicenseType=0
+# Free
+LicenseTypeAlpha=1
+# 2017-04-09T21:10:08.441Z
+Issued=1491772208
+# 2018-12-26T05:21:22.260Z
+UpdateValidThru=1545801682
+
+[Certificate12.Resource0]
+ResourceName=devices
+CurrentValue=0.0
+OriginalValue=1.0
+
+[Certificate12.Feature0]
+Feature=alc_cmp_core
+Platform=null
+# 2018-12-26T05:21:22.260Z
+UpdateValidThru=1545801682
+
+
+[Certificate13]
+LicenseId=39b81ea6-5846-47dd-850a-b2b8c975c0d4
+CorrelationIds=avast-premier-trial-1s1m1502204044993
+ProductName=Avast Premier Trial - 1 seat, 1 month
+LicensingSchemaId=avast-premier-trial-1s1m_1s1m
+Feature=AV_APR
+LicenseFamily=AvConsumer
+LicenseCount=1
+LicenseCountCurrent=0
+LicenseType=4
+# Trial
+LicenseTypeAlpha=2
+# 2017-08-08T14:54:05.039Z
+Issued=1502204045
+# 2017-09-07T14:54:04.993Z
+UpdateValidThru=1504796044
+
+[Certificate13.Resource0]
+ResourceName=devices
+CurrentValue=0.0
+OriginalValue=1.0
+
+[Certificate13.Feature0]
+Feature=alc_cmp_secdns
+Platform=null
+# 2017-09-07T14:54:04.993Z
+UpdateValidThru=1504796044
+
+[Certificate13.Feature1]
+Feature=alc_cmp_snx
+Platform=null
+# 2017-09-07T14:54:04.993Z
+UpdateValidThru=1504796044
+
+[Certificate13.Feature2]
+Feature=alc_cmp_sfzone
+Platform=null
+# 2017-09-07T14:54:04.993Z
+UpdateValidThru=1504796044
+
+[Certificate13.Feature3]
+Feature=alc_cmp_fw
+Platform=null
+# 2017-09-07T14:54:04.993Z
+UpdateValidThru=1504796044
+
+[Certificate13.Feature4]
+Feature=alc_shl_spm
+Platform=null
+# 2017-09-07T14:54:04.993Z
+UpdateValidThru=1504796044
+
+[Certificate13.Feature5]
+Feature=alc_cpm_shredder
+Platform=null
+# 2017-09-07T14:54:04.993Z
+UpdateValidThru=1504796044
+
+
+[Certificate14]
+LicenseId=dcb3c624-1e43-4b31-ae4c-8c2fd3034f01
+CorrelationIds=PUR_D4B26F278E37EE07785AF373E7853D8F;SR_CXT-42533683700
+ProductName=Avast Cleanup - 1 user, 1 year
+LicensingSchemaId=avast-cleanup-1y-1s_1
+Feature=GF_SRV
+LicenseFamily=GrimeFighter
+LicenseCount=1
+LicenseCountCurrent=0
+LicenseType=0
+# Paid
+LicenseTypeAlpha=3
+# 2017-09-26T13:54:02.100Z
+Issued=1506434042
+# 2018-10-26T15:54:01.270Z
+UpdateValidThru=1540569241
+BillingSubscriptionId=22840238
+BillingSubscriptionMode=3
+BillingSubscriptionLength=N/A
+
+[Certificate14.Resource0]
+ResourceName=devices
+CurrentValue=0.0
+OriginalValue=1.0
+
+[Certificate14.Feature0]
+Feature=gf_srv
+Platform=null
+# 2018-10-26T15:54:01.270Z
+UpdateValidThru=1540569241
+
+
+[Certificate15]
+LicenseId=bff83263-dcdd-4527-94d6-7af13b18f100
+CorrelationIds=avast-free-1s1m1489734363295
+ProductName=Avast Free Antivirus - 1 seat, 1 month
+LicensingSchemaId=avast-free-1s1m_1s1m
+Feature=AV_FREE
+LicenseFamily=AvConsumer
+LicenseCount=1
+LicenseCountCurrent=0
+LicenseType=4
+# Trial
+LicenseTypeAlpha=2
+# 2017-03-17T07:06:03.429Z
+Issued=1489734363
+# 2017-04-16T07:06:03.295Z
+UpdateValidThru=1492326363
+
+[Certificate15.Resource0]
+ResourceName=devices
+CurrentValue=0.0
+OriginalValue=1.0
+
+[Certificate15.Feature0]
+Feature=alc_cmp_core
+Platform=null
+# 2017-04-16T07:06:03.295Z
+UpdateValidThru=1492326363
+
+
+[Certificate16]
+LicenseId=8d64e230-6c9e-4fb1-af12-07bba28482b8
+CorrelationIds=PUR_329E19834749AB8CEC26934AE516CD13
+ProductName=Avast Internet Security - 1 user, 3 years
+LicensingSchemaId=avast-internet-sec-3y-1s_1
+Feature=AV_AIS
+LicenseFamily=AvConsumer
+LicenseCount=1
+LicenseCountCurrent=0
+LicenseType=0
+# Paid
+LicenseTypeAlpha=3
+# 2016-06-22T12:51:25.846Z
+Issued=1466599885
+# 2018-10-29T13:30:47.967Z
+UpdateValidThru=1540819847
+BillingSubscriptionId=0
+BillingSubscriptionMode=1
+BillingSubscriptionLength=N/A
+
+[Certificate16.Resource0]
+ResourceName=devices
+CurrentValue=0.0
+OriginalValue=1.0
+
+[Certificate16.Feature0]
+Feature=alc_cmp_secdns
+Platform=null
+# 2018-10-29T13:30:47.967Z
+UpdateValidThru=1540819847
+
+[Certificate16.Feature1]
+Feature=alc_cmp_snx
+Platform=null
+# 2018-10-29T13:30:47.967Z
+UpdateValidThru=1540819847
+
+[Certificate16.Feature2]
+Feature=alc_cmp_sfzone
+Platform=null
+# 2018-10-29T13:30:47.967Z
+UpdateValidThru=1540819847
+
+[Certificate16.Feature3]
+Feature=alc_cmp_fw
+Platform=null
+# 2018-10-29T13:30:47.967Z
+UpdateValidThru=1540819847
+
+[Certificate16.Feature4]
+Feature=alc_shl_spm
+Platform=null
+# 2018-10-29T13:30:47.967Z
+UpdateValidThru=1540819847
+
+
+
+[Signature]
+Signature=ASWSig2A74ED53D549B7AD5BC783385E841927107F6914081AD2A117EB303041F284A2EE663190233E118B9F628961932CA20FC9ACCF9555239D34CEF224AE8FB6909AC7ASWSig2A
