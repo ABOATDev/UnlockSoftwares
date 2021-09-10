@@ -21,10 +21,12 @@ D:\DEV\Documents\Projets\UnlockSoftwares\UnlockSoftwares\obj\Debug\UnlockSoftwar
 D:\DEV\Documents\Projets\UnlockSoftwares\UnlockSoftwares\obj\Debug\UnlockSoftwares.xml
 D:\DEV\Documents\Projets\UnlockSoftwares\UnlockSoftwares\obj\Debug\UnlockSoftwares.pdb
 D:\DEV\Documents\Projets\UnlockSoftwares\UnlockSoftwares\bin\Debug\UnlockSoftwares.exe.config
-D:\DEV\Documents\Projets\UnlockSoftwares\UnlockSoftwares\bin\Debug\UnlockSoftwares.exe.manifest
-D:\DEV\Documents\Projets\UnlockSoftwares\UnlockSoftwares\bin\Debug\UnlockSoftwares.application
 D:\DEV\Documents\Projets\UnlockSoftwares\UnlockSoftwares\bin\Debug\UnlockSoftwares.exe
 D:\DEV\Documents\Projets\UnlockSoftwares\UnlockSoftwares\bin\Debug\UnlockSoftwares.pdb
 D:\DEV\Documents\Projets\UnlockSoftwares\UnlockSoftwares\bin\Debug\UnlockSoftwares.xml
+D:\DEV\Documents\Projets\UnlockSoftwares\UnlockSoftwares\obj\Debug\UnlockSoftwares.vbprojAssemblyReference.cache
+D:\DEV\Documents\Projets\UnlockSoftwares\UnlockSoftwares\bin\Debug\UnlockSoftwares.exe.manifest
+D:\DEV\Documents\Projets\UnlockSoftwares\UnlockSoftwares\bin\Debug\UnlockSoftwares.application
+D:\DEV\Documents\Projets\UnlockSoftwares\UnlockSoftwares\obj\Debug\UnlockSoftwares.TrustInfo.xml
 D:\DEV\Documents\Projets\UnlockSoftwares\UnlockSoftwares\obj\Debug\UnlockSoftwares.exe.manifest
 D:\DEV\Documents\Projets\UnlockSoftwares\UnlockSoftwares\obj\Debug\UnlockSoftwares.application

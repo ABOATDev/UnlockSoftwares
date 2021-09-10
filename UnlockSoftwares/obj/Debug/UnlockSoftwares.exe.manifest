@@ -10,7 +10,7 @@
   <trustInfo>
     <security>
       <applicationRequestMinimum>
-        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
         <defaultAssemblyRequest permissionSetReference="Custom" />
       </applicationRequestMinimum>
       <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UnlockSoftwares.exe" size="626688">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="UnlockSoftwares.exe" size="628224">
       <assemblyIdentity name="UnlockSoftwares" version="2.1.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>qCLGc7BYCIeHvZtcIXeoLPexRfMDI463bQrxS2o9rU8=</dsig:DigestValue>
+        <dsig:DigestValue>nAuJ6J4juBbxvb6NSpOBE0eyWfLD3BOaGy7BFXQgQWg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

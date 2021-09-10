@@ -1562,73 +1562,88 @@ Public Class Form1
 
     Private Sub btn_active_adlice_Click(sender As Object, e As EventArgs) Handles btn_active_adlice.Click
         'Activer suite adlice : UCheck, RogueKiller, Diag
-        If ITalk_Label12.Text = "Ouvert avec droit Admin : /!\ NON /!\" = True Then
-            If MsgBox("UnlockSoftwares n'est pas exécuté en tant qu'administrateur, le crack ne risque de ne pas fonctionner, nous vous conseillons de rouvrir UnlockSoftwares avec les droits Administrateurs" & vbNewLine & vbNewLine & "Oui = Rouvrir UnlockSoftwares avec les droits administrateurs" & vbNewLine & "Non = Continuer la procédure sans les droits administrateurs.", vbYesNo + vbInformation, "Attention, il vous manque les droits administrateurs continuer ?") = vbYes Then
+        If ITalk_Label12.Text = "Ouvert avec droit Admin : /!\ NON /!\" Then
+            If MsgBox("UnlockSoftwares n'est pas exécuté en tant qu'administrateur, le crack ne risque de ne pas fonctionner, nous vous conseillons de rouvrir UnlockSoftwares avec les droits Administrateurs" & vbNewLine & vbNewLine & "Oui = Rouvrir UnlockSoftwares avec les droits administrateurs" & vbNewLine & "Non = Annuler", vbYesNoCancel + vbInformation, "Attention, il vous manque les droits administrateurs continuer ?") = vbYes Then
                 ITalk_Button_157_Click(sender, New System.EventArgs())
                 Exit Sub
+            Else
+                TextBox7.Text = vbNewLine & vbNewLine & " /!\ Droit administrateur requis. /!\" & vbNewLine
             End If
+
+        Else
+            Try
+                TextBox7.Text = "Arrêt des processus UCheck, RogueKiller, Diag : " & vbNewLine
+                KillProcess("RogueKiller_portable64")
+                KillProcess("RogueKiller_portable32")
+                KillProcess("RogueKiller32")
+                KillProcess("RogueKiller64")
+                KillProcess("UCheck_portable64")
+                KillProcess("UCheck_portable32")
+                KillProcess("UCheck64")
+                KillProcess("UCheck32")
+                KillProcess("UCheck_portable64")
+                KillProcess("UCheck_portable32")
+                KillProcess("UCheck64")
+                KillProcess("UCheck32")
+                KillProcess("Diag_portable64")
+                KillProcess("Diag_portable32")
+                KillProcess("Diag64")
+                KillProcess("Diag32")
+                TextBox7.Text += vbNewLine & "      -> Effectué "
+                TextBox7.Text += vbNewLine & vbNewLine & "Modification registre : "
+                'Ordinateur\HKEY_USERS\.DEFAULT\Software\Adlice Software\
+                My.Computer.Registry.Users.OpenSubKey(".DEFAULT\Software\", True).DeleteSubKeyTree("Adlice Software", False)
+                'Ordinateur\HKEY_CURRENT_USER\SOFTWARE\Adlice Software
+                My.Computer.Registry.CurrentUser.OpenSubKey("SOFTWARE\", True).DeleteSubKeyTree("Adlice Software", False)
+                TextBox7.Text += vbNewLine & "      -> OK" & vbNewLine
+
+                'RogueKiller
+                TextBox7.Text += vbNewLine & vbNewLine & "Logiciel RogueKiller : " & vbNewLine
+                If System.IO.Directory.Exists(PROGRAMDATAChemin & "RogueKiller") Then 'RogueKiller
+                    My.Computer.FileSystem.DeleteDirectory(PROGRAMDATAChemin & "RogueKiller\", FileIO.DeleteDirectoryOption.DeleteAllContents)
+                    If System.IO.Directory.Exists(PROGRAMDATAChemin & "RogueKiller") = True Then
+                        TextBox7.Text += vbNewLine & "      -> Dossier Diag non supprimer"
+                    Else
+                        TextBox7.Text += vbNewLine & "      -> Réinitialisation de la licence démonstration RogueKiller réussi !" & vbNewLine & "Ouvrez RogueKiller ,puis 'Activer' et 'Activer l'essais' en bas a droite"
+                    End If
+                Else
+                    TextBox7.Text += vbNewLine & "      -> Dossier RogueKiller introuvable, veuillez lancer le logiciel au moins une fois."
+                End If
+
+                TextBox7.Text += vbNewLine & vbNewLine & "Logiciel Diag : " & vbNewLine
+                If System.IO.Directory.Exists(PROGRAMDATAChemin & "ADiag") Then 'Diag
+                    My.Computer.FileSystem.DeleteDirectory(PROGRAMDATAChemin & "ADiag\", FileIO.DeleteDirectoryOption.DeleteAllContents)
+                    If System.IO.Directory.Exists(PROGRAMDATAChemin & "ADiag") = True Then
+                        TextBox7.Text += vbNewLine & "      -> Dossier Diag non supprimer"
+                    Else
+                        TextBox7.Text += vbNewLine & "      -> Réinitialisation de la licence démonstration Diag réussi !" & vbNewLine & "Ouvrez Diag ,puis 'Activer' et 'Activer l'essaie' en bas a droite"
+                    End If
+                Else
+                    TextBox7.Text += vbNewLine & "      -> Dossier Diag introuvable, veuillez lancer le logiciel au moins une fois."
+                End If
+
+
+                TextBox7.Text += vbNewLine & vbNewLine & "Logiciel UCheck : " & vbNewLine
+                If System.IO.Directory.Exists(PROGRAMDATAChemin & "UCheck") Then 'Ucheck
+                    My.Computer.FileSystem.DeleteDirectory(PROGRAMDATAChemin & "UCheck\", FileIO.DeleteDirectoryOption.DeleteAllContents)
+                    If System.IO.Directory.Exists(PROGRAMDATAChemin & "UCheck") = True Then
+                        TextBox7.Text += vbNewLine & "      -> Dossier UCheck non supprimer "
+                    Else
+                        TextBox7.Text += vbNewLine & "      -> Réinitialisation de la licence démonstration UCheck réussi !" & vbNewLine & "Ouvrez UCheck ,puis 'Activer' et 'Activer l’essaie' en bas a droite" & vbNewLine
+                    End If
+                Else
+                    TextBox7.Text += vbNewLine & "      -> Dossier UCheck introuvable, veuillez lancer le logiciel au moins une fois."
+                End If
+
+                TextBox7.Text += vbNewLine & vbNewLine & " FIN" & vbNewLine & "Période d'essai réinitialisé ! " & vbNewLine & vbNewLine & "Ouvrez le logiciel ,puis 'Activer' et 'Activer l’essaie' en bas a droite"
+
+
+            Catch ex As Exception
+                infoerreur(ex, TextBox7)
+            End Try
         End If
 
 
-        Try
-            TextBox7.Text = "Arrêt des processus UCheck, RogueKiller, Diag : En cours ..." & vbNewLine & "Veuillez patienter quelques minutes"
-            KillProcess("RogueKiller_portable64")
-            KillProcess("RogueKiller_portable32")
-            KillProcess("RogueKiller32")
-            KillProcess("RogueKiller64")
-            KillProcess("UCheck_portable64")
-            KillProcess("UCheck_portable32")
-            KillProcess("UCheck64")
-            KillProcess("UCheck32")
-            KillProcess("UCheck_portable64")
-            KillProcess("UCheck_portable32")
-            KillProcess("UCheck64")
-            KillProcess("UCheck32")
-            KillProcess("Diag_portable64")
-            KillProcess("Diag_portable32")
-            KillProcess("Diag64")
-            KillProcess("Diag32")
-            TextBox7.Text = "Arrêt de processus UCheck, RogueKiller, Diag : Effectué "
-
-            'RogueKiller
-            If System.IO.Directory.Exists(PROGRAMDATAChemin & "RogueKiller") Then 'RogueKiller
-                My.Computer.FileSystem.DeleteDirectory(PROGRAMDATAChemin & "RogueKiller\", FileIO.DeleteDirectoryOption.DeleteAllContents)
-                If System.IO.Directory.Exists(PROGRAMDATAChemin & "RogueKiller") = True Then
-                    TextBox7.Text = TextBox7.Text & vbNewLine & "Un problème est  survenue lors de la suppression du Dossier RogueKiller"
-                Else
-                    TextBox7.Text = TextBox7.Text & vbNewLine & "Réinitialisation de la licence démonstration RogueKiller réussi !" & vbNewLine & "Ouvrez RogueKiller ,puis 'Activer' et 'Activer l'essais' en bas a droite"
-                End If
-            Else
-                TextBox7.Text = TextBox7.Text & "Dossier RogueKiller introuvable, veuillez lancer le logiciel au moins une fois."
-            End If
-
-
-            If System.IO.Directory.Exists(PROGRAMDATAChemin & "ADiag") Then 'Diag
-                My.Computer.FileSystem.DeleteDirectory(PROGRAMDATAChemin & "ADiag\", FileIO.DeleteDirectoryOption.DeleteAllContents)
-                If System.IO.Directory.Exists(PROGRAMDATAChemin & "ADiag") = True Then
-                    TextBox7.Text = TextBox7.Text & vbNewLine & "Un problème est survenue lors de la suppression du Dossier Diag"
-                Else
-                    TextBox7.Text = TextBox7.Text & vbNewLine & "Réinitialisation de la licence démonstration Diag réussi !" & vbNewLine & "Ouvrez Diag ,puis 'Activer' et 'Activer l'essaie' en bas a droite"
-                End If
-            Else
-                TextBox7.Text = TextBox7.Text & vbNewLine & "Dossier Diag introuvable, veuillez lancer le logiciel au moins une fois."
-            End If
-
-
-            If System.IO.Directory.Exists(PROGRAMDATAChemin & "UCheck") Then 'Ucheck
-                My.Computer.FileSystem.DeleteDirectory(PROGRAMDATAChemin & "UCheck\", FileIO.DeleteDirectoryOption.DeleteAllContents)
-                If System.IO.Directory.Exists(PROGRAMDATAChemin & "UCheck") = True Then
-                    TextBox7.Text = TextBox7.Text & vbNewLine & "Un problème est survenue lors de la suppression du Dossier UCheck"
-                Else
-                    TextBox7.Text = TextBox7.Text & vbNewLine & "Réinitialisation de la licence démonstration UCheck réussi !" & vbNewLine & "Ouvrez UCheck ,puis 'Activer' et 'Activer l’essaie' en bas a droite"
-                End If
-            Else
-                TextBox7.Text = TextBox7.Text & vbNewLine & "Dossier UCheck introuvable, veuillez lancer le logiciel au moins une fois."
-            End If
-
-        Catch ex As Exception
-            infoerreur(ex, TextBox7)
-        End Try
     End Sub
 
     Private Sub btn_active_snagit_Click(sender As Object, e As EventArgs) Handles btn_active_snagit.Click
