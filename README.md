@@ -1,5 +1,5 @@
-#UnlockSoftwares
-[![Generic badge](https://img.shields.io/badge/Releases-2.1-green.svg)](https://shields.io/) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html) [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+# UnlockSoftwares
+[![Generic badge](https://img.shields.io/badge/Releases-2.1-green.svg)](https://github.com/ABOATDev/UnlockSoftwares/releases) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.html) [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ABOATDev/UnlockSoftwares)
 
 
 ## Présentation : Activer vos logiciels
@@ -9,7 +9,9 @@ Un seul logiciel, pour une multitude de cracks
 UnlockSoftwares permet d'activer vos logiciels en toute simplicité !
 De façons sécurisées, car il n’utilise aucun exécutable ou fichier .dll modifié.
 Logiciel portable gratuit écrit entièrement en français
-Arrêtez les tuto youtube et les méthodes douteuses avec des exécutables ou fichier .dll infecté ...![Liste logiciel](https://images.weserv.nl/?url=i.imgur.com/g4DeKfS.jpg&w=500&h=500[ "Liste logiciel")
+Arrêtez les tuto youtube et les méthodes douteuses avec des exécutables ou fichier .dll infecté ...
+
+![Liste logiciel](https://i.imgur.com/g4DeKfS.jpg "Liste logiciel")
 
 
 
@@ -27,8 +29,7 @@ Chaque logiciel à une description, un lien de téléchargement et le détail de
 - Adlice suite (RogueKiller / UCheck / Diag )jpg&w=500&h=500 "Accueil")
 
 
-![Liste logiciel](https://images.weserv.nl/?url=i.imgur.com/g4DeKfS.jpg&w=500&h=500[ "Liste logiciel")
-
+![Liste logiciel](https://i.imgur.com/g4DeKfS.jpg&w=500&h=500 "Liste logiciel")
 
 
 
@@ -57,7 +58,7 @@ Chaque logiciel à une description, un lien de téléchargement et le détail de
 ## Télécharger
 
 
-[Télécharger UnlockSoftwares](http://https://github.com/TeamNewPipe/NewPipe#readme "UnlockSoftwares")
+[Télécharger UnlockSoftwares](https://github.com/ABOATDev/UnlockSoftwares/releases "UnlockSoftwares")
 
 
 ## Contribution
