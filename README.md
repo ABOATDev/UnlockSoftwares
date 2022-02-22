@@ -15,24 +15,6 @@ Arrêtez les tuto youtube et les méthodes douteuses avec des exécutables ou fi
 
 
 
-
-## Usage
-
-
-Lancer le logiciel, allez dans la rubrique "Logiciels", choisir un logiciel, et cliquez sur "Activer" afin d'activer le logiciel choisi !
-Chaque logiciel à une description, un lien de téléchargement et le détail de l'activation
-
-
-
-
-## Logiciel supporté
-- Adlice suite (RogueKiller / UCheck / Diag )jpg&w=500&h=500 "Accueil")
-
-
-![Liste logiciel](https://i.imgur.com/g4DeKfS.jpg&w=500&h=500 "Liste logiciel")
-
-
-
 ## Usage
 
 
